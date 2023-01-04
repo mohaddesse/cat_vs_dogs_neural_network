@@ -30,8 +30,21 @@ in classification_without_neural.ipynb there is 2 parts:
    - There are some results for 500 examples:  As you can see in the data frame accuracy for training examples is almost 100 % it is high variance and it needs regularization :))
 
 ![Screenshot from 2023-01-04 17-13-31](https://user-images.githubusercontent.com/36596572/210568087-8fa3dc67-6fb6-4754-9744-95cf66a7227c.png)
+-  There are some 
+results for 1000 examples:
+![Screenshot from 2023-01-04 17-54-13](https://user-images.githubusercontent.com/36596572/210577384-e27d0361-e9a5-4798-94a4-eaaf84a4abe7.png)
+
 
 - second part: I've used **scikit learn** library logistic regression and **GridSearchCV**
 ![Screenshot from 2023-01-04 17-19-07](https://user-images.githubusercontent.com/36596572/210569301-d8daea28-172a-4182-b222-c9a2e98a69bc.png)
 > the best result ==> alpha=0.001,num of iterations=6000, number of samples=1000 ==> accuracy test=64.0	accuracy train=87.000	
 
+## classification with neural network
+
+ in classification_with_neural_network.ipynb I've implemented gradient descent in deep learning.
+- in this part I've written couple of functions:
+  - to initialize weights w,b for L layer neural network
+  - to calculate forward equations for L layers
+  - to calculate backward propagation for gradients descent
+  - update parameters according to cost functions and derivative
+  - and finally predict functions
