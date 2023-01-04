@@ -40,10 +40,10 @@ in classification_without_neural.ipynb there is 2 parts:
 
 - second part: I've used **scikit learn** library logistic regression and **GridSearchCV**
 
-![Uploading Screenshot from 2023-01-04 18-29-39.png…]()
+![Screenshot from 2023-01-04 18-29-39](https://user-images.githubusercontent.com/36596572/210584704-eab18f05-1e4a-4d19-9fc2-385ba9f3f8bd.png)
 
 
-> the best result ==> alpha=0.001,num of iterations=6000, number of samples=1000 ==> accuracy test=64.0	accuracy train=87.000	
+> the best result with own created algorithms ==> alpha=0.001,num of iterations=6000, number of samples=1000 ==> accuracy test=64.0	accuracy train=87.000	
 
 ## classification with neural network
 
@@ -54,7 +54,10 @@ in classification_without_neural.ipynb there is 2 parts:
   - to calculate backward propagation for gradients descent
   - update parameters according to cost functions and derivative
   - and finally predict functions
- - we can see some results together:
+  
+ - **we can see some results together:**
+
+
   > learning rate=0.0015 and num of iterations: 2500 ==> alpha is too small and cost decrease slowly.
  
 ![Screenshot from 2023-01-04 18-09-37](https://user-images.githubusercontent.com/36596572/210582113-7fee47ca-7438-49fc-8a4a-0b861dc77f9a.png)
@@ -70,7 +73,7 @@ in classification_without_neural.ipynb there is 2 parts:
 ![Screenshot from 2023-01-04 18-23-55](https://user-images.githubusercontent.com/36596572/210582380-aed152a7-b759-4701-ab11-8dcbebde0a91.png)
 
 
-  > learning rate=0.03 and num of iterations: 2500 ==> oh no result oscillate because learning rate is large!!
+  > learning rate=0.03 and num of iterations: 2500 ==> oh no cost function oscillate because learning rate is large!!
   
   ![Screenshot from 2023-01-04 18-24-03](https://user-images.githubusercontent.com/36596572/210582413-f630f488-cb21-4b27-b4ec-1411630b91fa.png)
 
