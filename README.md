@@ -32,7 +32,8 @@ in classification_without_neural.ipynb there is 2 parts:
 ![Screenshot from 2023-01-04 17-13-31](https://user-images.githubusercontent.com/36596572/210568087-8fa3dc67-6fb6-4754-9744-95cf66a7227c.png)
 -  There are some 
 results for 1000 examples:
-![Screenshot from 2023-01-04 17-54-13](https://user-images.githubusercontent.com/36596572/210577384-e27d0361-e9a5-4798-94a4-eaaf84a4abe7.png)
+
+![Uploading Screenshot from 2023-01-04 18-00-34.png…]()
 
 
 - second part: I've used **scikit learn** library logistic regression and **GridSearchCV**
@@ -42,9 +43,19 @@ results for 1000 examples:
 ## classification with neural network
 
  in classification_with_neural_network.ipynb I've implemented gradient descent in deep learning.
-- in this part I've written couple of functions:
+- in this part I've written a couple of functions:
   - to initialize weights w,b for L layer neural network
   - to calculate forward equations for L layers
   - to calculate backward propagation for gradients descent
   - update parameters according to cost functions and derivative
   - and finally predict functions
+ - we can see some results together:
+  > learning rate=0.0015 and num of iterations: 2500 ==> alpha is too small and cost decrease slowly.
+  ![Uploading Screenshot from 2023-01-04 18-09-37.png…]()
+  
+  > learning rate=0.01 and num of iterations: 2500 ==> result is getting better with increase learning rate
+
+  > learning rate=0.02 and num of iterations: 2200 ==> ok result is pretty good with increase learning rate
+
+  > learning rate=0.03 and num of iterations: 2500 ==> oh no result oscillate because learning rate is large!!
+  
