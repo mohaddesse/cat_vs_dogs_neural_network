@@ -19,4 +19,4 @@ in classification_without_neural.ipynb there is 2 parts:
 
 - first part: classify pictures with 500,1000,3000 examples:  
 
-![The San Juan Mountains are beautiful!] (/home/mohaddesse/Pictures/Screenshots/Screenshot from 2023-01-04 14-46-39.png )
+![Screenshot from 2023-01-04 14-46-39](https://user-images.githubusercontent.com/36596572/210545584-b9fb6e23-b167-4267-9bea-1e6dcc714224.png)
